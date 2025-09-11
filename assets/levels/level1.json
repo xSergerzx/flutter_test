@@ -1,0 +1,287 @@
+[
+  {
+    "question": "Найди заголовок первого уровня (h1)",
+    "options": [
+      {
+        "text": "#h1",
+        "explanation": "Это ищет элемент с id='h1'. Но тег <h1> не обязательно имеет такой id."
+      },
+      {
+        "text": "h1",
+        "explanation": "Правильно! Это выбирает все элементы <h1>."
+      },
+      {
+        "text": ".h1",
+        "explanation": "Это ищет класс 'h1'. Но у заголовка его может и не быть."
+      }
+    ],
+    "correctIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери элемент с id='login'",
+    "options": [
+      {
+        "text": "#login",
+        "explanation": "Правильно! # используется для выбора по id."
+      },
+      {
+        "text": ".login",
+        "explanation": "Это ищет по классу. Но элемент может не иметь класс 'login'."
+      },
+      {
+        "text": "login",
+        "explanation": "Такого селектора нет. Нужно указать тег, класс или id."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери все параграфы на странице",
+    "options": [
+      {
+        "text": "p",
+        "explanation": "Правильно! Это выбирает все теги <p>."
+      },
+      {
+        "text": ".p",
+        "explanation": "Это ищет класс 'p'. Но у параграфа его может не быть."
+      },
+      {
+        "text": "#p",
+        "explanation": "Это ищет id='p'. Такой id может и не существовать."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери все кнопки <button>",
+    "options": [
+      {
+        "text": "button",
+        "explanation": "Правильно! Это выбирает все теги <button>."
+      },
+      {
+        "text": ".button",
+        "explanation": "Это ищет класс 'button'. У кнопок не всегда такой класс."
+      },
+      {
+        "text": "#button",
+        "explanation": "Это ищет элемент с id='button'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери элемент с классом 'title'",
+    "options": [
+      {
+        "text": "#title",
+        "explanation": "Это ищет id='title'."
+      },
+      {
+        "text": ".title",
+        "explanation": "Правильно! Точка обозначает поиск по классу."
+      },
+      {
+        "text": "title",
+        "explanation": "Такого тега нет в HTML."
+      }
+    ],
+    "correctIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери поле ввода <input>",
+    "options": [
+      {
+        "text": "input",
+        "explanation": "Правильно! Это выбирает все теги <input>."
+      },
+      {
+        "text": "#input",
+        "explanation": "Это ищет id='input'."
+      },
+      {
+        "text": ".input",
+        "explanation": "Это ищет класс 'input'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери все ссылки <a>",
+    "options": [
+      {
+        "text": ".a",
+        "explanation": "Это ищет класс 'a'."
+      },
+      {
+        "text": "a",
+        "explanation": "Правильно! Это выбирает все <a> (ссылки)."
+      },
+      {
+        "text": "#a",
+        "explanation": "Это ищет id='a'."
+      }
+    ],
+    "correctIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Найди div с id='container'",
+    "options": [
+      {
+        "text": "div.container",
+        "explanation": "Это ищет <div> с классом container, а не id."
+      },
+      {
+        "text": "#container",
+        "explanation": "Правильно! # используется для выбора по id."
+      },
+      {
+        "text": ".container",
+        "explanation": "Это ищет по классу 'container'."
+      }
+    ],
+    "correctIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери все элементы списка <li>",
+    "options": [
+      {
+        "text": "li",
+        "explanation": "Правильно! Это выбирает все <li>."
+      },
+      {
+        "text": ".li",
+        "explanation": "Это ищет класс 'li'."
+      },
+      {
+        "text": "#li",
+        "explanation": "Это ищет id='li'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери картинку <img>",
+    "options": [
+      {
+        "text": "img",
+        "explanation": "Правильно! Это выбирает все <img>."
+      },
+      {
+        "text": ".img",
+        "explanation": "Это ищет класс 'img'."
+      },
+      {
+        "text": "#img",
+        "explanation": "Это ищет id='img'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Найди форму <form>",
+    "options": [
+      {
+        "text": "#form",
+        "explanation": "Это ищет id='form'."
+      },
+      {
+        "text": "form",
+        "explanation": "Правильно! Это выбирает все <form>."
+      },
+      {
+        "text": ".form",
+        "explanation": "Это ищет класс 'form'."
+      }
+    ],
+    "correctIndex": 1,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери таблицу <table>",
+    "options": [
+      {
+        "text": "table",
+        "explanation": "Правильно! Это выбирает все <table>."
+      },
+      {
+        "text": ".table",
+        "explanation": "Это ищет класс 'table'."
+      },
+      {
+        "text": "#table",
+        "explanation": "Это ищет id='table'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Найди span с классом highlight",
+    "options": [
+      {
+        "text": "span.highlight",
+        "explanation": "Правильно! Это выбирает <span> с классом highlight."
+      },
+      {
+        "text": "#highlight",
+        "explanation": "Это ищет id='highlight'."
+      },
+      {
+        "text": "highlight",
+        "explanation": "Такого тега нет."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Выбери заголовок второго уровня (h2)",
+    "options": [
+      {
+        "text": "h2",
+        "explanation": "Правильно! Это выбирает все <h2>."
+      },
+      {
+        "text": "#h2",
+        "explanation": "Это ищет id='h2'."
+      },
+      {
+        "text": ".h2",
+        "explanation": "Это ищет класс 'h2'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  },
+  {
+    "question": "Найди элемент strong (жирный текст)",
+    "options": [
+      {
+        "text": "strong",
+        "explanation": "Правильно! Это выбирает все <strong>."
+      },
+      {
+        "text": ".strong",
+        "explanation": "Это ищет класс 'strong'."
+      },
+      {
+        "text": "#strong",
+        "explanation": "Это ищет id='strong'."
+      }
+    ],
+    "correctIndex": 0,
+    "level": "easy"
+  }
+]
